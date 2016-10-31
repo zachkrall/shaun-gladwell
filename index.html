@@ -47,9 +47,12 @@ var gladwell = [
 
 for (i = 0; i < gladwell.length; i++) {
     $('#book__container').append('<div id=\"book__card\">\
-                                  <h1> ' + gladwell[i].title + ' </h1>\
-                                  </div>');
-    console.log('Loading ' + gladwell[i].title + '...');                            
+                                  <div id=\"book__image\"></div>\
+                                  <div id=\"book__card--hover\">\
+                                  <div id=\"book__title\"><h1> ' + gladwell[i].title + ' (' + gladwell[i].published + ')</h1></div>\
+                                  <div id=\"book__publisher\"> ' + gladwell[i].publisher + ' </div>\
+                                  </div></div>');
+    console.log('Loading ' + gladwell[i].title + '...');       
 };
  
   
