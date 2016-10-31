@@ -49,3 +49,30 @@ section{
  font-size:9pt;
  
 }
+
+/* BOOK CARDS */
+.book__card{
+ padding: 0px;
+		position: relative;
+		text-align: left;
+		display: inline-block;
+        vertical-align: top;
+        
+        width: 19%;
+		margin: 0 7% 10% 0;
+        
+        box-sizing:border-box;
+}
+	.book__card:nth-child(4n+0){
+		margin-right: 0;
+	}
+.book__card--hover{}
+
+.book__image{
+    width: 100%;
+    }
+.book__image img {
+    max-width: 100%;
+    }
+.book__title{}
+.book__publisher{}
