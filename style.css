@@ -21,9 +21,13 @@ section{
  
 }
 
-#intro__name{
+#intro *{
 
  font-size:9pt;
+ 
+}
+#intro__name{
+ 
  font-weight:bold;
  text-transform:uppercase;
  
