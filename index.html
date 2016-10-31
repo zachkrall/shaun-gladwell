@@ -43,15 +43,61 @@ var gladwell = [
      'url':'https://dl.dropbox.com/s/d0r1c4b3kccnj0a/1_GLADWELLl_CYCLES%20OF%20RADICAL%20WILL_DLWP_2013%20.pdf',
      'thumb':''
     },
+   
+    {
+     'title':'Perpetual 360 Degree Sessions',
+     'author':'Shaun Gladwell',
+     'publisher':'Schunck (Netherlands)',
+     'published':2011,
+     'url':'https://dl.dropbox.com/s/d0r1c4b3kccnj0a/1_GLADWELLl_CYCLES%20OF%20RADICAL%20WILL_DLWP_2013%20.pdf',
+     'thumb':''
+    },
+     
+    {
+     'title':'Stereo Sequences',
+     'author':'Shaun Gladwell',
+     'publisher':'Schwartz City &amp; The Australian Centre for the Moving Image',
+     'published':2011,
+     'url':'https://dl.dropbox.com/s/wgfz8wva9w0brhc/5_GLADWELL_STEREO%20SEQUENCES_ACMI_2011.pdf',
+     'thumb':''
+    },
+       
+    {
+     'title':'Interceptor Intersection',
+     'author':'Shaun Gladwell',
+     'publisher':'Schwartz City and Cambelltown Art Center',
+     'published':2010,
+     'url':'https://dl.dropbox.com/s/mzrr5zwg5meh2s7/8_INTERCEPTOR%20INTERSECTION_CAMPBELLTOWN_2010.pdf',
+     'thumb':''
+    },
+        
+    {
+     'title':'Maddest Maximus',
+     'author':'Shaun Gladwell',
+     'publisher':'Schwartz City',
+     'published':2009,
+     'url':'https://dl.dropbox.com/s/63a2fcs886mnv1v/9_GLADWELL_MMP%26S_VENICE_2009.pdf',
+     'thumb':''
+    },
+          
+    {
+     'title':'Shaun Gladwell Videoworks',
+     'author':'Shaun Gladwell',
+     'publisher':'Artspace, Sydney',
+     'published':2008,
+     'url':'https://dl.dropbox.com/s/8wvu2i7fgn3zmus/10_GLADWELL_VIDEOWORK_ARTSPACE_2008.pdf',
+     'thumb':''
+    },
 ];
 
 for (i = 0; i < gladwell.length; i++) {
     $('#book__container').append('<div class=\"book__card\">\
+                                  <a href=\" ' + gladwell[i].url + ' \">
                                   <div class=\"book__image\"></div>\
                                   <div class=\"book__card--hover\">\
                                   <div class=\"book__title\"><h1> ' + gladwell[i].title + ' (' + gladwell[i].published + ')</h1></div>\
                                   <div class=\"book__publisher\"> ' + gladwell[i].publisher + ' </div>\
-                                  </div></div>');
+                                  </a></div></div>');
     console.log('Loading ' + gladwell[i].title + '...');       
 };
  
