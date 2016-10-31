@@ -39,5 +39,6 @@ var gladwell = {
 }
 
 for (i = 0; i < gladwell.length; i++) { 
-    // create DIV card for each book
+    $('book__container').append('<h1>'+ gladwell[i].title);
+    console.log('appended' + gladwell[i].title');                            
 }
