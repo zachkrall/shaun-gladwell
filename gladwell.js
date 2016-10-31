@@ -1,5 +1,4 @@
-var gladwell = {
- 
+var gladwell = [
     {
      'title':'The Lacrima Chair',
      'author':'Shaun Gladwell',
@@ -35,8 +34,7 @@ var gladwell = {
      'url':'https://dl.dropbox.com/s/d0r1c4b3kccnj0a/1_GLADWELLl_CYCLES%20OF%20RADICAL%20WILL_DLWP_2013%20.pdf',
      'thumb':''
     },
-    
-}
+];
 
 for (i = 0; i < gladwell.length; i++) { 
     $('book__container').append('<h1>'+ gladwell[i].title);
