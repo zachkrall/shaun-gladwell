@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script type="text/javascript">
+$( document ).ready(function() {    
 var gladwell = [
     {
      'title':'The Lacrima Chair',
@@ -48,7 +49,7 @@ for (i = 0; i < gladwell.length; i++) {
     $('#book__container').append('<h1> ' + gladwell[i].title + ' </h1>');
     console.log('Loading ' + gladwell[i].title + '...');                            
 };
-                    
+});         
 </script>
 
 </head>
