@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+
 *, html{
 	margin:0;padding:0;
 }
@@ -9,7 +11,7 @@ body, html{
 
 html, body, span, div, table, tr, td{
  
- font-family:Arial,sans-serif;
+ font-family:"Cousine", Arial, sans-serif;
  font-size:11.5pt;
  line-height:17pt;
  letter-spacing:0.5pt;
@@ -84,3 +86,5 @@ footer{
  font-size:8pt;
  color:#bbb;
 }
+footer a{color:#bbb;border-color:#bbb;}
+footer a:hover{background-color:#bbb;color:#2a2b2a;}
