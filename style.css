@@ -77,4 +77,10 @@ section{
     max-width: 100%;
     }
 .book__title{}
-.book__publisher{}
+.book__publisher{opacity:0.5;}
+
+
+footer{
+ font-size:8pt;
+ color:#bbb;
+}
