@@ -5,13 +5,20 @@
 
 }
 
-html, body, h1, h2, h3, h4, h5, span, div, table, tr, td{
+html, body, span, div, table, tr, td{
  
  font-family:Arial,sans-serif;
  font-size:11.5pt;
  line-height:15.5pt;
  letter-spacing:0.5pt;
  color:#2a2a2b;
+ 
+}
+h1, h2, h3, h4, h5{
+
+ font-size:9pt;
+ font-weight:bold;
+ text-transform:uppercase;
  
 }
 
@@ -24,11 +31,5 @@ section{
 #intro *{
 
  font-size:9pt;
- 
-}
-#intro__name{
- 
- font-weight:bold;
- text-transform:uppercase;
  
 }
