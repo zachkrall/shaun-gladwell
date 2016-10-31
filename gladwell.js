@@ -37,6 +37,5 @@ var gladwell = [
 ];
 
 for (i = 0; i < gladwell.length; i++) { 
-    $('book__container').append('<h1> '+ gladwell[i].title +' </h1>');
     console.log('appended' + gladwell[i].title');                            
 };
