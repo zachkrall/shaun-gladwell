@@ -74,7 +74,16 @@ section, footer{
 	.book__card:nth-child(4n+0){
 		margin-right: 0;
 	}
-.book__card--hover{}
+.book__card:hover{
+	opacity:0.5;
+	    -webkit-transition: background-color 500ms all 1s;
+    -moz-transition: background-color 500ms all 1s;
+    -o-transition: background-color 500ms all 1s;
+    transition: background-color 500ms all 1s;
+}
+.book__card--hover{
+
+}
 
 .book__image{
     width: 100%;
