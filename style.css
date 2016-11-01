@@ -100,4 +100,4 @@ footer{
  color:#bbb;
 }
 footer a{color:#bbb!important;border-bottom-color:#bbb!important;}
-footer a:hover{background-color:#bbb;color:#2a2b2a!important;}
+footer a:hover{background-color:#bbb;color:#2a2b2a!important;border-top-color:#bbb!important;}
