@@ -21,7 +21,7 @@ html, body, span, div, table, tr, td{
 }
 h1, h2, h3, h4, h5{
 
- font-size:9pt;
+ font-size:10pt;
  font-weight:bold;
  text-transform:uppercase;
  
@@ -54,7 +54,7 @@ section, footer{
 
 #intro *{
 
- font-size:9pt;
+ font-size:10pt;
  
 }
 
