@@ -7,6 +7,7 @@
 body, html{
  width:100%;
  height:100%;
+	background:#ffffff;
 }
 
 html, body, span, div, table, tr, td{
@@ -32,6 +33,8 @@ a, a:link, a:active, a:visited{
  color:#2a2a2b;
  border-bottom:2px solid #2a2a2b;
  padding-bottom:2px;
+ padding-top:2px;
+ border-top:2px solid #ffffff;
  
 }
 
@@ -39,6 +42,7 @@ a:hover{
 
  background:#2a2a2b;
  color:#fefefe;
+ border-top:2px solid #2a2a2b;
  
 }
 
