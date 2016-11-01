@@ -14,7 +14,7 @@ var gladwell = [
      'publisher':'Sherman Contemporary Art Foundation',
      'published':2015,
      'url':'https://dl.dropbox.com/s/d25wbz38clcyn77/0_GLADWELLl_THE%20LACRIMA_CHAIR.pdf',
-     'thumb':''
+     'thumb':'http://sherman-scaf.org.au/wp-content/uploads/2015/03/Cover-400x511.jpg'
     },
      
     {
@@ -93,7 +93,7 @@ var gladwell = [
 for (i = 0; i < gladwell.length; i++) {
     $('#book__container').append('<div class=\"book__card\">\
                                   <a href=\" ' + gladwell[i].url + ' \">\
-                                  <div class=\"book__image\"></div>\
+                                  <div class=\"book__image\"><img src=\"' + gladwell[i].thumb + '\"></div>\
                                   <div class=\"book__card--hover\">\
                                   <div class=\"book__title\"><h1> ' + gladwell[i].title + ' (' + gladwell[i].published + ')</h1></div>\
                                   <div class=\"book__publisher\"> ' + gladwell[i].publisher + ' </div>\
