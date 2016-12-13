@@ -118,18 +118,21 @@ var gladwell = [
     }
 ];
 
-
 for (i = 0; i < gladwell.length; i++) {
+
     $('#book__container').append('<div class="book__card">\
                                   <div class="book__image"><img src="' + gladwell[i].thumb + '"></div>\
                                   <div class="book__info">\
                                   <div class="book__title">' + gladwell[i].title + '</div><div class="book__year">' + gladwell[i].published + '</div>\
                                   <div class="book__action"><a href="' + gladwell[i].url + '" class="action">Download</a></div>\
                                   </div>');
-    console.log('Loading ' + gladwell[i].title + '...');
+
 };
 
 
+});
+$(window).load(function() {
+  $("#book__container").fadeIn(2000);
 });
 </script>
 
@@ -161,7 +164,6 @@ for (i = 0; i < gladwell.length; i++) {
     </section>
 
     <footer>
-      &copy; 2016
     </footer>
 
 </div>
