@@ -264,7 +264,7 @@ button.filterButton:hover{
 	margin-bottom:50px;
 }
 #book__container.list .book__card .book__image{
-	display:flex;
+	display:block;
 	position:relative;
 	vertical-align: top;
 }
@@ -319,8 +319,8 @@ button.filterButton:hover{
 
 @media (max-width:824px) {
 
-		#book__container.grid .book__card{  height:300px;  }
-		#book__container.grid .book__card .book__image img{  height:300px;  }
+		#book__container.grid .book__card{  height:300px;width:auto;  }
+		#book__container.grid .book__card .book__image img{  height:300px;width:auto;  }
 
 }
 
