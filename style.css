@@ -269,7 +269,7 @@ button.filterButton:hover{
 	vertical-align: top;
 }
 #book__container.list .book__card .book__image img{
-	width:400px;
+	width:400px;height:auto;
 }
 @media (max-width:824px) {
 
