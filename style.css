@@ -296,14 +296,16 @@ button.filterButton:hover{
 	flex-direction: row;
 	-webkit-flex-direction: row;
 	flex-wrap: wrap;
-	margin-bottom:100px;
+	padding-bottom:100px;
+	justify-content: center;
+	margin:-30px;
 }
 #book__container.grid .book__card{
 
 	display:inline-block;
 	height:400px;
 	box-sizing: border-box;
-	margin:0 50px 50px 0;
+	margin:30px;
 	position:relative;
 
 }
