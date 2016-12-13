@@ -124,6 +124,8 @@ h1, h2, h3, h4, h5 {
 	bottom:0;left:0;*/
 	width:100%;
 
+} .clear{
+	clear:both;
 }
 
 /*#intro *{
@@ -246,13 +248,14 @@ button.filterButton:hover{
 	color:#fefefe;
 }
 
-#book__container{margin-bottom:100px;display:none;}
-
 /* BOOK CARDS */
 .book__card{
 
 	transition:all ease 0.3s;
 
+}
+#book__container.list{
+	padding-bottom:40px;
 }
 #book__container.list .book__card{
 	width:100%;
@@ -293,6 +296,7 @@ button.filterButton:hover{
 	flex-direction: row;
 	-webkit-flex-direction: row;
 	flex-wrap: wrap;
+	margin-bottom:100px;
 }
 #book__container.grid .book__card{
 
