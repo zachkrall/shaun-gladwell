@@ -273,7 +273,7 @@ button.filterButton:hover{
 }
 @media (max-width:824px) {
 
-	#book__container.list .book__card .book__image img{  width:100px;  }
+	#book__container.list .book__card .book__image img{  width:100px;height:auto;  }
 
 }
 #book__container.list .book__card .book__info{
