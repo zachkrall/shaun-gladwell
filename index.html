@@ -15,11 +15,13 @@ $( '.about' ).click(function(){
 
 });
   
-$( '.contact' ).click(function(){
-
-  $('.contact').text('shaun@badfaith.co');
-
-});
+$( 'a.contact' ).hover(
+    function() {
+    $( this ).append( $( "<span> shaun@gladwell.co</span>" ) );
+  }, function() {
+    $( this ).find( "span:last" ).remove();
+  }
+);
 
 $( '.closeParent' ).click(function(){
 
@@ -145,7 +147,7 @@ for (i = 0; i < gladwell.length; i++) {
 
     <header>
       <button class="about">About</button>
-      <button class="contact">Contact</button>
+      <a class="contact">Contact</a>
 
       <h1>Shaun Gladwell</h1>
 
