@@ -155,7 +155,8 @@ header{
 header h1{
 	padding:15px;
 }
-button.about,a.contact{
+button.about,
+a.contact{
 	padding:15px 30px;
 	margin:0;
 	position:relative;
@@ -163,6 +164,9 @@ button.about,a.contact{
 	line-height:22pt;
 	border:0;
 	background:#fff;
+}
+a.contact span{
+font-size:14pt;line-height:22pt;
 }
 button.about:hover,
 a.contact:hover{
