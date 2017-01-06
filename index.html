@@ -14,6 +14,12 @@ $( '.about' ).click(function(){
   $('#about-o').show();
 
 });
+  
+$( '.contact' ).click(function(){
+
+  $('.contact').text('shaun@badfaith.co');
+
+});
 
 $( '.closeParent' ).click(function(){
 
@@ -139,10 +145,11 @@ for (i = 0; i < gladwell.length; i++) {
 
     <header>
       <button class="about">About</button>
+      <button class="contact">Contact</button>
 
       <h1>Shaun Gladwell</h1>
 
-      <div id="book__filter">
+      <div id="book__filter" style="display:none;">
 
         <div class="select_view">
           <button value="list" class="filterButton">List</button><button value="grid" class="filterButton active">Grid</button>
