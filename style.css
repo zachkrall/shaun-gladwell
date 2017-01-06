@@ -155,7 +155,7 @@ header{
 header h1{
 	padding:15px;
 }
-button.about,button.contact{
+button.about,a.contact{
 	padding:15px 30px;
 	margin:0;
 	position:relative;
@@ -165,7 +165,7 @@ button.about,button.contact{
 	background:#fff;
 }
 button.about:hover,
-button.contact:hover{
+a.contact:hover{
 	background:#dedede;
 }
 button:hover{
