@@ -1,0 +1,30 @@
+{
+  "name": "shaun-gladwell",
+  "version": "1.0.0",
+  "description": "![preview of website](thumb.png)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss src/scss/dev.scss dist/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build": "npm run build-css && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachkrall/shaun-gladwell.git"
+  },
+  "author": "Zach Krall <zach@zachkrall.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachkrall/shaun-gladwell/issues"
+  },
+  "homepage": "https://github.com/zachkrall/shaun-gladwell#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.12",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "vue": "^2.5.13"
+  }
+}

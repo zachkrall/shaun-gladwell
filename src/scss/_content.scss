@@ -1,108 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cousine');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css');
-
-/*
-Primary Color: #DD1D6B
-Secondary Color: #6529B8
-
-Black: #2a2a2b;
-*/
-
-/* STARTERS AND TYPOGRAPHY */
-
-.material-icons{
-
-	font-size: 12pt!important;
-	line-height:17pt;
-
-	vertical-align:middle!important;
-	display:inline-block!important;
-	padding:0;margin:-5px 10px 0 10px;
-
-}
-
-*, html, div, p {
-
-	margin:0;padding:0;
-
-}	body, html {
-
-	width:100%;
-	height:100%;
-	background:#ececec;
-
-}	html, body, span, div, table, tr, td {
-
- font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
- font-size:11.5pt;
- line-height:17pt;
- letter-spacing:0.5pt;
- color:#2a2a2b;
-
-}
-
-@media (min-width:825px) {
-	body{
-		padding-top:80px;
-	}
-}
-@media (max-width:824px) {
-	body{
-		padding-top:80px;
-	}
-}
-
-/* - - - - - - - - - - - - */
-
-h1, h2, h3, h4, h5 {
-
-	font-size:9pt;
-	font-weight:bold;
-	/*text-transform:uppercase;*/
-
-} header h1 {
-
-	font-size:14pt;
-	font-weight:normal;
-	display:inline;
-	margin:0;padding:0;
-
-}	p {
-
-} a, a:link, a:active, a:visited {
-
-	text-decoration:none;
-	color:#999;
-	border-bottom:2px solid #999;
-	padding-bottom:5px;
-
-} a:hover {
-
-	color:#2a2b2a;
-	border-color:#2a2b2a;
-
-}	a.action {
-
-	padding:15px 30px;
-	background:#fff;
-	border:0;
-
-} a.action:after {
-
-	content:' →';
-
-} a.action:hover {
-
-	background:#2a2a2b;
-	color:#fefefe;
-
-} a.source{
-	display:inline-block;
-} a.source:after{
-	content:' →';
-}
-
-/* CONTENT CONTAINERS */
+// Content
 
 /*#content{
 
@@ -177,8 +73,7 @@ button:hover{
 }
 
 #about-o{
-	display:none;
-
+	
 	margin:0;padding:80px 60px 60px 60px;
 	position:fixed;
 	top:0;left:0;
