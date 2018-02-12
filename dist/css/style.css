@@ -5,8 +5,8 @@
   box-sizing: border-box; }
 
 html {
-  width: 100%;
-  height: 100%; }
+  width: 100vw;
+  height: 100vh; }
 
 body {
   background: #ececec;
@@ -72,7 +72,7 @@ a.source:after {
 
 }*/
 section, footer {
-  margin: 30px;
+  margin: 30px 0px;
   box-sizing: border-box; }
 
 footer {
@@ -288,7 +288,9 @@ button.filterButton:hover {
   margin: 30px auto; }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  text-align: right; }
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
